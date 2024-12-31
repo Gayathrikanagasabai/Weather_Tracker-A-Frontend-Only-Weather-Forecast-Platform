@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D/I</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+            padding: 20%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+        }
+        button{
+            padding: 10px;
+            border-radius: 5px;
+            background-color: white;
+            background-color: rgb(3, 11, 87);
+        }
+        .bg-image{
+            background-image: url(image4.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height:100vh;
+            margin-top: 0%;
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+        }
+        .h1{
+            justify-content: center;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute; 
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <section class="bg-image"></section>
+    <h1 class="h1"style="color: #0B0352;">Weather Forcast</h1>
+    <div class="button">
+        <h1><a href="domestic.html"><button style="font-size: 30px;color: rgb(250, 249, 249);">Domestic</button></a></h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h1><a href="international.html"><button style="font-size: 30px;color: rgb(253, 250, 250);">International</button></a></h1>
+    </div>
+</body>
+</html>
